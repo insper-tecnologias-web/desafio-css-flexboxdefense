@@ -26,6 +26,17 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+.appbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f7d736;
+}
+.logo {
+  max-width: 10%;
+  height: auto;
+}
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
