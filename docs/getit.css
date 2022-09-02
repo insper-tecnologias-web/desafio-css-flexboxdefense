@@ -180,6 +180,15 @@ body {
 }
   
 
+p{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+}
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
